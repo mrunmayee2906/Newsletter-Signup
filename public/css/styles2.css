@@ -1,0 +1,21 @@
+body {
+    background-color: #bab55933;
+}
+
+.bg-color {
+    background-color: #bab559CC;
+}
+
+.btn-color {
+    /* background-color: #bab559; */
+    /* #124c30 */
+    /* background-image: linear-gradient(#7b783c, #bab559); */
+    background-image: linear-gradient(#124c30, #bab559);
+}
+
+.btn-color:hover {
+    background-image: linear-gradient(#6f6c36, #aaa551);
+}
+
+
+

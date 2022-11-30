@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #bab55933;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-color {
+  /* background-color: #bab559; */
+  background-image: linear-gradient(#7b783c, #bab559);
+}
+
+.btn-color:hover {
+  background-image: linear-gradient(#6f6c36, #aaa551);
+}
