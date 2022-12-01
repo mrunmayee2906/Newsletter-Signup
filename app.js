@@ -55,17 +55,17 @@ app.post("/", function(req, res){
 
         } catch(e) {
             // console.log(e.response.text);
-            const text = JSON.parse(e.response.text);
+            ////////const text = JSON.parse(e.response.text);
             // console.log(text.title);
-            if(text.title === 'Member Exists') {
-                res.sendFile(__dirname + "/alreadySubscribed.html")
-            }
+            ///////if(text.title === 'Member Exists') {
+            //////    res.sendFile(__dirname + "/alreadySubscribed.html")
+            //////}
             //  else if(text.title === 'Invalid Resource'){
             //     res
             // }
-            else {
+            //////else {
                 res.sendFile(__dirname + "/failure.html");
-            }
+            //////}
             // res.send(e);
             // res.sendFile(__dirname + "/failure.html");
         }
