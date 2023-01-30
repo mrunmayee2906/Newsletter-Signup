@@ -1,5 +1,5 @@
 # Newsletter-Signup
-Sign up page for a newsletter which asks for name and email of the person wanting to subscribe to the newsletter.
+Node.js project: Sign up page for a newsletter which asks for name and email of the person wanting to subscribe to the newsletter.
 
 The subscriber list is stored in a MailChimp audience list.
 
